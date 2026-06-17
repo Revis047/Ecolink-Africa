@@ -1,7 +1,6 @@
 # EcoLink Africa
 
-AI-powered platform connecting African farmers directly to Chinese markets.
-Built for the China-Africa Innovation Competition.
+AI-powered platform connecting  farmers directly to Global markets.
 
 ## Project Structure
 
