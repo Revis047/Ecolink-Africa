@@ -1,0 +1,29 @@
+{
+  "name": "EcoLinkAfrica",
+  "displayName": "EcoLink Africa",
+  "expo": {
+    "name": "EcoLink Africa",
+    "slug": "ecolink-africa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "entryPoint": "./index.js",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "bundleIdentifier": "com.ecolink.africa",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Take photos of crops for disease detection",
+        "NSMicrophoneUsageDescription": "Record voice inquiries about farming",
+        "NSPhotoLibraryUsageDescription": "Save crop scan photos"
+      }
+    },
+    "android": {
+      "package": "com.ecolink.africa",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}
